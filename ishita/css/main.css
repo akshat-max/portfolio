@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Libre Baskerville', sans-serif;
+
 }
 
 #wrapper {
@@ -48,14 +49,15 @@ h1 {
     font-size: 1.75em;
     font-weight: normal;
     line-height: 0.8em;
-    text-shadow: 1px 1px 3px #2a2b2a;
+   
+    text-shadow: 1px 1px 3px #7395AE;
     
 }
 h2 {
     font-size: 0.75em;
     margin: -5px 0 0;
     font-weight: normal;
-    text-shadow: 1px 1px 2  px #2a2b2a;
+    text-shadow: 1px 1px 2  px #7395AE;
 }
 
 /***********************
@@ -88,18 +90,62 @@ nav a {
 ***********************/
 
 footer {
-    font-size: 0.75em;
+    font-size: 1em;
     text-align: center;
     clear: both;
     padding-top: 50px;
-    color: #706c61;
+    color:#66FCF1;
 }
 
 
-.social-attribute {
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
+
+.nav-items{
+	color:#66FCF1;
+    padding: 10px;
+    width: 30px;
+    height: 50px;
+}
+a.nav-items:hover{
+    color: #7395AE;
+}
+/*font size*/
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.67em;
+    margin: 2.33em 0;
+}
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
 }
 
 /***********************
@@ -116,15 +162,14 @@ footer {
     float: left;
     width: 45%;
     margin: 2.5%;
-    background-color: #ff8966;
-    box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.3);
+    background-color: #ffffff;
 }
 
 #gallery li a p{
     margin: 0;
     padding: 5%;
     font-size: 0.75em;
-    color: #2a2b2a
+    color: #2a2b2a;
 }
 
 
@@ -139,7 +184,7 @@ footer {
     border-radius: 100%;
     border: 4px;
     border-style:solid;
-    border-color:#2a2b2a
+    border-color:silver;
 }
 
 .profile-photo:hover {
@@ -151,9 +196,10 @@ footer {
 ***********************/
 
 .contact-info {
-      list-style:none;
+    list-style:none;
     padding: 0;
     margin: 0;
+    color: whitesmoke;
     font-size: 0.9em;
 }
 
@@ -193,17 +239,15 @@ footer {
 
 /* site body */
 body {
-    background-color: #f8f4e3;
-    color: #706c61;
+    background-color: #1A1A1D;
 }
 
 a {
-    color: #ff8966;
+    color: #fafafa;
 }
 
 header {
-    background: #e5446d;
-    border-color: #ff8966;
+    background:#1A1A1D ;
 }
 
 a:hover{
@@ -211,18 +255,21 @@ a:hover{
 }
 
 h1, h2 {
-    color: #2a2b2a;
+    color:#66FCF1;
 }
-
-nav { /* nav background mobile */
-    background: #e5446d;
+h3{
+    color: gainsboro;
+}
+p{
+    color: whitesmoke;
 }
 
 nav a, nav a:visited { 
-    color: #ff8966;
+    color: whitesmoke;
 }
 
+
 nav a.selected, nav a:hover {
-    color: #2a2b2a;
+    color: #7395AE;
 }
 
